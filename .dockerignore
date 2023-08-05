@@ -1,0 +1,41 @@
+# Ignore development and temporary files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.swp
+*.swo
+*.log
+
+# Ignore database files
+db.sqlite3
+
+# Ignore node_modules directory from the frontend
+frontend/node_modules
+
+# Ignore compiled React build artifacts
+frontend/build
+
+# Ignore media and static files (use volumes for these in production)
+media/
+static/
+
+# Ignore environment files (use volumes or secrets for these in production)
+.env
+.env.*
+
+# Ignore any sensitive or secret files
+secrets/
+
+# Ignore Docker-specific files and directories
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore editor configuration and workspace files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore any other unnecessary files or directories
